@@ -7,4 +7,4 @@ function fib(n, a, b)
   return fib(n-1, b, a+b)
 end
 
-print(fib(35, 0, 1))
+print(fib(40, 0, 1))
