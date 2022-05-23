@@ -3,8 +3,8 @@ package main
 import (
 	"os"
 
-	"github.com/Shopify/go-lua"
 	"github.com/pkg/profile"
+	"github.com/rverpillot/go-lua"
 )
 
 func main() {
