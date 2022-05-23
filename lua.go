@@ -844,7 +844,7 @@ func (l *State) ToUserData(index int) interface{} {
 	if d, ok := l.indexToValue(index).(*userData); ok {
 		return d.data
 	}
-	return nil
+	return l.indexToValue(index)
 }
 
 // ToThread converts the value at index to a Lua thread (a State). This
